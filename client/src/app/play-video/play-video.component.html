@@ -1,0 +1,9 @@
+<!-- <p>
+  {{videoData}}
+</p> -->
+
+<vg-player>
+	<video [vgMedia]="media" #media id="singleVideo" preload="auto" controls class="video-css" controls>
+		<source *ngIf="videoData" [src]="videoData" type="video/mp4" >
+		</video>
+	</vg-player>

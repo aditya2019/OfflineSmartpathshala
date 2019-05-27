@@ -1,0 +1,7 @@
+[{
+    "name": "pikachu",
+    "urlVideo": "http://localhost:3000/test/testvideo.mp4"
+}, {
+    "name": "nature",
+    "urlVideo": "http://localhost:3000/test/pikachu.mp4"
+}]
